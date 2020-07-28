@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dicoding.cinemaindonesiansubmission4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.dicoding.picodiploma.cinemaindonesia.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.dicoding.picodiploma.cinemaindonesia.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".reminder.Reminder"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity"/>
+
+        <service
+            android:name=".widget.widgetAdapter.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".widget.movieWidget.FavoriteMoviesWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_movies_widget_info" />
+        </receiver>
+        <receiver android:name=".widget.tvshowWidget.FavoriteTvShowWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_tv_show_widget_info" />
+        </receiver>
+
+        <provider
+            android:name=".provider.CinemaProvider"
+            android:authorities="com.dicoding.picodiploma.cinemaindonesia"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.dicoding.picodiploma.cinemaindonesia.READ_DATABASE"
+            android:writePermission="com.dicoding.picodiploma.cinemaindonesia.WRITE_DATABASE" />
+
+        <activity android:name=".view.detail.DetailMovieActivity" />
+        <activity android:name=".view.detail.DetailTvShowActivity" />
+<!--        <activity android:name=".reminder.ReminderSettings" />-->
+    </application>
+
+</manifest>

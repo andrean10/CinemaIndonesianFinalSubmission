@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Daftar Sinema Favorit</string>
+    <string name="title_favoriteMv">Film Favorit</string>
+    <string name="title_favoriteTv">Acara TV Favorit</string>
+    <string name="title">Judul</string>
+    <string name="release">Tanggal Rilis</string>
+    <string name="more_info">Info Selengkapnya</string>
+    <string name="change_language">Ubah Pengaturan Bahasa</string>
+    <string name="storyline">Alur Cerita</string>
+    <string name="popularity">Popularitas</string>
+    <string name="cinema_content_image">Cinema Content Image</string>
+    <string name="rating_status">Penilaian</string>
+    <string name="value">0.0</string>
+    <string name="favorite">Favorit</string>
+    <string name="succes_add_itemMv">Berhasil menambahkan film ke daftar favorit</string>
+    <string name="succes_add_itemTv">Berhasil menambahkan tv show ke daftar favorit</string>
+    <string name="succes_remove_itemMv">Berhasil menghapus film dari daftar favorit</string>
+    <string name="succes_remove_itemTv">Berhasil menghapus acara tv dari daftar favorit</string>
+    <string name="empty_data_movie">Tidak ada data film di daftar favorit</string>
+    <string name="empty_data_tvshow">Tidak ada data acara tv di daftar favorit</string>
+    <!--    <string name="empty_search_movies">Tidak ada data film saat ini</string>-->
+</resources>

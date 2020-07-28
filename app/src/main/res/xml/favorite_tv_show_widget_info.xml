@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/list_favorite_banner"
+    android:initialLayout="@layout/list_favorite_banner"
+    android:minWidth="250dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/exampleimagefavorite"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"></appwidget-provider>

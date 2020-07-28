@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Indonesian Cinema</string>
+    <string name="app_message">Indonesian Cinema Missing You</string>
+    <string name="title_movies">Movie</string>
+    <string name="title_tvshow">Tv Show</string>
+    <string name="title">Title</string>
+    <string name="release">Release Date</string>
+    <string name="more_info">More Info</string>
+    <string name="change_language">Change Language Settings</string>
+    <string name="storyline">Storyline</string>
+    <string name="popularity">Popularity</string>
+    <string name="cinema_content_image">Cinema Content Image</string>
+    <string name="rating_status">Rating</string>
+    <string name="value">0.0</string>
+    <string name="favorite">Favorite</string>
+    <string name="succes_add_itemMv">Successfully added movie to favorite list</string>
+    <string name="succes_add_itemTv">Successfully added tv show to favorite list</string>
+    <string name="succes_remove_itemMv">Successfully deleted the movie from the favorites list</string>
+    <string name="succes_remove_itemTv">Successfully deleted tv shows from favorite list</string>
+    <string name="search">Search</string>
+    <string name="hintSearch">Input Search</string>
+    <string name="widget_title_favoriteMv">Favorite List Movies</string>
+    <string name="widget_title_favoriteTv">Favorite List TvShow</string>
+    <string name="empty_widget_favoriteMv">"There is no movie data in the widget favorites list"</string>
+    <string name="empty_widget_favoriteTv">"There are no tv show in the widget favorites list"</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="settings">Settings</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="key_release_remind" translatable="false">release_reminder</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="key_daily_remind" translatable="false">daily_remind</string>
+    <string name="desc_dailyremind">Reminder for return to app</string>
+    <string name="desc_releaseremind">Reminder showing the movie that released today</string>
+    <string name="activated_dailyremind">Daily Reminder Enabled</string>
+    <string name="activated_releaseremind">Release Reminder Enabled</string>
+    <string name="unactivated_dailyremind">Daily Reminder Disabled</string>
+    <string name="unactivated_releaseremind">Release Reminder Disabled</string>
+</resources>

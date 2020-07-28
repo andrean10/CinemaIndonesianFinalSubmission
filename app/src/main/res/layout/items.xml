@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@drawable/border_box">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        tools:src="@color/colorAccent"
+        android:contentDescription="@string/cinema_content_image" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="@string/title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/content" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:textSize="12sp"
+        android:text="@string/release"
+        android:textColor="@color/content" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="@string/storyline"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="@color/content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/more_info"
+        android:textColor="@color/content" />
+</RelativeLayout>

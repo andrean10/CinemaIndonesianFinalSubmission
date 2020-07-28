@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">List of Favorite Cinemas</string>
+    <string name="title_favoriteMv">Favorite Movies</string>
+    <string name="title_favoriteTv">Favorite Tv Show</string>
+    <string name="title">Title</string>
+    <string name="release">Release Date</string>
+    <string name="more_info">More Info</string>
+    <string name="change_language">Change Language Settings</string>
+    <string name="storyline">Storyline</string>
+    <string name="popularity">Popularity</string>
+    <string name="cinema_content_image">Cinema Content Image</string>
+    <string name="rating_status">Rating</string>
+    <string name="value">0.0</string>
+    <string name="favorite">Favorite</string>
+    <string name="succes_add_itemMv">Successfully added movie to favorite list</string>
+    <string name="succes_add_itemTv">Successfully added tv show to favorite list</string>
+    <string name="succes_remove_itemMv">Successfully deleted the movie from the favorites list</string>
+    <string name="succes_remove_itemTv">Successfully deleted tv shows from favorite list</string>
+    <string name="empty_data_movie">There is no movie data in the favorites list</string>
+    <string name="empty_data_tvshow">There are no tv show in the favorites list</string>
+    <!--    <string name="empty_search_movies">No movie data at this time</string>-->
+</resources>

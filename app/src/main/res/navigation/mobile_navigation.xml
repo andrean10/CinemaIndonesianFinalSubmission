@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_movies">
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.dicoding.cinemaindonesiansubmission4.view.movies.MovieFragment"
+        android:label="@string/title_movies"
+        tools:layout="@layout/fragment_recyclerview" />
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.dicoding.cinemaindonesiansubmission4.view.tvshow.TvShowFragment"
+        android:label="@string/title_tvshow"
+        tools:layout="@layout/fragment_recyclerview" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.dicoding.cinemaindonesiansubmission4.reminder.ReminderSettings"
+        android:label="@string/settings" />
+</navigation>

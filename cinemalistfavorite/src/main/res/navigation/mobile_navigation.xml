@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_favoriteMv">
+
+    <fragment
+        android:id="@+id/navigation_favoriteMv"
+        android:name="com.dicoding.cinemalistfavorite.view.favorite.FavoriteMoviesFragment"
+        android:label="@string/title_favoriteMv"
+        tools:layout="@layout/fragment_recyclerview" />
+
+    <fragment
+        android:id="@+id/navigation_favoriteTv"
+        android:name="com.dicoding.cinemalistfavorite.view.favorite.FavoriteTvShowFragment"
+        android:label="@string/title_favoriteTv"
+        tools:layout="@layout/fragment_recyclerview" />
+</navigation>
